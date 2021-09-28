@@ -1,5 +1,6 @@
 from loguru import logger
 
+# cookie池，账号越多，请求延迟可以对应减少，提高爬虫速度
 ck_pool = [
     "微博cookie1",
     "微博cookie2",
